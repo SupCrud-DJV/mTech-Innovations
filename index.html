@@ -326,4 +326,15 @@
 </div>
 </footer>
 <!-- END: Footer -->
-</body></html>
+ <!-- SupCrud Widget -->
+<script>
+  (function(w, d, s, key) {
+    w.SupCrudConfig = { workspaceKey: key };
+    var script = d.createElement(s);
+    script.src = './widget.js'; // change route
+    script.async = true;
+    d.head.appendChild(script);
+  })(window, document, 'script', 'WORKSPACE_KEY_HERE');
+</script>
+</body>
+</html>
